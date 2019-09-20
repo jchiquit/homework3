@@ -12,8 +12,6 @@ a{
   font-size: 18px;
   color:#c12258;
   text-decoration: underline;
-}
-table{
 
 }
 table{
@@ -21,12 +19,14 @@ table{
   border-collapse: separate;
   border-radius: 10px;
   border: 2px solid black;
+  overflow: hidden;
 }
 thead{
   color: white;
   text-transform: uppercase;
   background-color: #7e0830;
   text-align: center;
+
 }
 th{
   padding: 10px;
@@ -36,22 +36,30 @@ th{
 th:last-child{
   border-top-right-radius: 10px;
 }
-tr:first-child{
+th:first-child{
   border-top-left-radius: 10px;
 }
 td{
   color: black;
   padding: 15px;
   font-size: 18px;
-
 }
 tbody{
   text-align: center;
 }
-td, th{
-  border-bottom: 2px solid black;
-}
 footer{
   background-color: black;
   color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+  padding: 15px;
+}
+tr:nth-child(2n+2){
+  background: #dddddd
 }
