@@ -3,6 +3,12 @@ body{
   background: url("../images/pidgeon-background.jpg") #dddddd;
   background-repeat: no-repeat;
 }
+td, th{
+  border-top: 2px solid black;
+}
+caption+thead th{
+  border-top: none;
+}
 h1{
   line-height: 1.5;
   color: #c12258;
@@ -12,13 +18,11 @@ a{
   font-size: 18px;
   color:#c12258;
   text-decoration: underline;
-
 }
 table{
   border: 2px solid black;
   border-collapse: separate;
   border-radius: 10px;
-  border: 2px solid black;
   overflow: hidden;
 }
 thead{
@@ -26,9 +30,6 @@ thead{
   text-transform: uppercase;
   background-color: #7e0830;
   text-align: center;
-}
-tr{
-  border-bottom: 2px solid black;
 }
 th{
   padding: 10px;
@@ -45,12 +46,6 @@ td{
   color: black;
   padding: 15px;
   font-size: 18px;
-}
-tr{
-  border-bottom: 50px solid black;
-}
-tr{
-  border-bottom: 0px;
 }
 tbody{
   text-align: center;
